@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#
 INIT_SYSTEM=`strings /sbin/init | awk 'match($0, /(upstart|systemd|sysvinit|busybox)/) { print tolower(substr($0, RSTART, RLENGTH));exit; }'`
 
 PROXY_PID=`pgrep -f proxy.*socks`
