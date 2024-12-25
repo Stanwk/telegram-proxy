@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#
 ### BEGIN INIT INFO
 # Provides:       proxy
 # Required-Start:    $local_fs $remote_fs $network $syslog $named
